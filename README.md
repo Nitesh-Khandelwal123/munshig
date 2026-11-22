@@ -7,7 +7,7 @@ and no monthly bill.
 
 [![Watch the 43-second demo](docs/demo-poster.png)](docs/munshig-demo.mp4)
 
-*Click the picture to watch the demo (43 s, no sound needed). It uses the built-in dummy data.*
+*Click the picture to watch the demo (43 s, with music; works muted too). It uses the built-in dummy data.*
 
 - **Answers customers** from a knowledge file you write. If the answer isn't
   in the file, it says "let me check and get back to you" and adds the
