@@ -1,0 +1,68 @@
+{
+  "sharma_steel_invoice.pdf": {
+    "doc_type": "invoice",
+    "seller_name": "Sharma Steel Suppliers",
+    "seller_gstin": "27AAECS5678F1Z0",
+    "buyer_name": "Demo Traders",
+    "buyer_gstin": "27AABCD1234E1Z8",
+    "invoice_no": "SS/2026/0412",
+    "invoice_date": "2026-11-02",
+    "taxable": 10000,
+    "cgst": 900,
+    "sgst": 900,
+    "igst": null,
+    "cess": null,
+    "round_off": null,
+    "total": 11800
+  },
+  "sales_invoice_kumar.pdf": {
+    "doc_type": "invoice",
+    "seller_name": "Demo Traders",
+    "seller_gstin": "27AABCD1234E1Z8",
+    "buyer_name": "Kumar Electricals",
+    "buyer_gstin": "29AAHFK4321L1Z4",
+    "invoice_no": "DT/26-27/118",
+    "invoice_date": "2026-11-14",
+    "taxable": 21186.44,
+    "cgst": null,
+    "sgst": null,
+    "igst": 3813.56,
+    "cess": null,
+    "round_off": null,
+    "total": 25000
+  },
+  "office_chair_bill.png": {
+    "doc_type": "invoice",
+    "seller_name": "Comfort Furniture House",
+    "seller_gstin": "27AAKFC2468M1ZZ",
+    "buyer_name": "Demo Traders",
+    "buyer_gstin": "27AABCD1234E1Z8",
+    "invoice_no": "CF-889",
+    "invoice_date": "2026-10-31",
+    "taxable": 5500,
+    "cgst": 495,
+    "sgst": 495,
+    "igst": null,
+    "cess": null,
+    "round_off": null,
+    "total": 6490
+  },
+  "upi_payment_kumar.png": {
+    "doc_type": "payment",
+    "payer_name": "Kumar Electricals",
+    "payee_name": "Demo Traders",
+    "utr": "631245789012",
+    "payment_status": "success",
+    "invoice_date": "2026-11-15",
+    "total": 25000,
+    "against_bill": "DT/26-27/118"
+  },
+  "quotation_xyz.pdf": {
+    "doc_type": "not_a_bill",
+    "not_a_bill_kind": "quotation",
+    "seller_name": "XYZ Packaging",
+    "seller_gstin": "27AAFFX1357N1ZN",
+    "invoice_no": "Q-2231",
+    "total": 40000
+  }
+}

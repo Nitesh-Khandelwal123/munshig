@@ -1,0 +1,22 @@
+{
+  "name": "munshig-whatsapp-bridge",
+  "version": "0.1.0",
+  "private": true,
+  "description": "WhatsApp linked-device bridge for MunshiG (JSON lines on stdin/stdout)",
+  "type": "module",
+  "main": "bridge.mjs",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node bridge.mjs",
+    "check": "node --check bridge.mjs"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "7.0.0-rc14",
+    "https-proxy-agent": "9.1.0",
+    "pino": "10.4.0",
+    "qrcode-terminal": "0.12.0"
+  }
+}

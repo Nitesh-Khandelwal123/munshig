@@ -1,0 +1,29 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+bridge/node_modules/
+
+# local runtime data (config, database, media, WhatsApp login) never goes to git
+data/
+*.db
+*.db-wal
+*.db-shm
+demo-output/
+munshig.toml
+knowledge.md
+whatsapp-auth/
+auth_info*/
+media/
+backups/
+
+# secrets
+.env
+.env.*
+*.pem
+*.key
+creds.json
+
+# video working files (only docs/*.mp4 is published)
+video-work/
+*.mov
